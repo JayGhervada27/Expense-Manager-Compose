@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
+
         setContent {
             ExpenseManagerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
